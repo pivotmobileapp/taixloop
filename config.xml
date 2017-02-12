@@ -52,6 +52,7 @@
     <!-- Core plugins -->
  <!--   <gap:plugin name="cordova-plugin-geolocation" source="npm" />-->
 <!--		<gap:plugin name="org.apache.cordova.geolocation"  source="npm"/>-->
+	<gap:plugin spec="https://github.com/driftyco/ionic-plugin-keyboard.git" source="git" />
 		<gap:plugin name="cordova.plugins.Keyboard" source="npm" />
 	<!--	<gap:plugin name="org.apache.cordova.device" source="npm" />-->
 		<gap:plugin name="org.apache.cordova.device-orientation" source="npm" />
