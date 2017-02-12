@@ -50,16 +50,26 @@
     <!-- Plugins -->
 
     <!-- Core plugins -->
-    
-		<gap:plugin name="org.apache.cordova.geolocation"  source="npm"/>
-		<!--<gap:plugin name="com.ionic.keyboard" source="npm" />-->
-		<gap:plugin name="org.apache.cordova.device" source="npm" />
+ <!--   <gap:plugin name="cordova-plugin-geolocation" source="npm" />-->
+<!--		<gap:plugin name="org.apache.cordova.geolocation"  source="npm"/>-->
+		<gap:plugin name="cordova.plugins.Keyboard" source="npm" />
+	<!--	<gap:plugin name="org.apache.cordova.device" source="npm" />-->
 		<gap:plugin name="org.apache.cordova.device-orientation" source="npm" />
 		<gap:plugin name="org.apache.cordova.dialogs" source="npm" />
 		<gap:plugin name="org.apache.cordova.file-transfer" source="npm" />
 		<gap:plugin name="org.apache.cordova.inappbrowser" source="npm" />
 		<gap:plugin name="org.apache.cordova.network-information" source="npm" />
-		<gap:plugin name="org.apache.cordova.splashscreen" source="npm"/>
+<!--		<gap:plugin name="org.apache.cordova.splashscreen" source="npm"/>-->
+	
+   <gap:plugin name="cordova-plugin-whitelist" source="npm" />
+    <gap:plugin name="phonegap-plugin-push" source="npm" spec="1.5.3" />
+    <gap:plugin name="com.paypal.cordova.mobilesdk" source="npm"  />            	
+    <gap:plugin name="cordova-plugin-device" source="npm" />		
+	<gap:plugin name="cordova-plugin-inappbrowser" source="npm" />		
+	<gap:plugin name="cordova-plugin-splashscreen" source="npm" />	
+	<gap:plugin name="cordova-plugin-geolocation" source="npm" />
+	<gap:plugin name="cordova-plugin-network-information" source="npm" />
+	<gap:plugin name="cordova-plugin-request-location-accuracy" source="npm" />	
 		
 		<!-- <gap:plugin name="cordova-plugin-whitelist" version="1.0.0"  /> -->
     <!-- Third party plugins -->
